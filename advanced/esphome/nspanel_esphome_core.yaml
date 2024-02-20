@@ -11,7 +11,7 @@ substitutions:
   ## local yaml substitutions ##
   temp_units: "°C"
   invalid_cooldown: "100ms"
-  ota_password: ${wifi_password}
+  ota_password: ${ota_password}
   ap_password: ${wifi_password}
   device_name: NSPanel
   name: ${device_name}
